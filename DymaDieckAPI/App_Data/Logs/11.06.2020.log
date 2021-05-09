@@ -1,0 +1,131 @@
+2020-06-11 07:33:11,200 [72] ERROR YfosCipherBondAPI.Controllers.CatalogController - The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 879
+2020-06-11 07:34:11,971 [75] ERROR YfosCipherBondAPI.Controllers.CatalogController - The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 879
+2020-06-11 07:36:47,441 [72] ERROR YfosCipherBondAPI.Controllers.CatalogController - The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 879
+2020-06-11 08:27:17,187 [91] ERROR YfosCipherBondAPI.Controllers.CatalogController - The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YfosCipherBondAPI.Controllers.CatalogController.Base64ToImage(String base64String) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 857
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 887
+2020-06-11 08:38:06,906 [71] ERROR YfosCipherBondAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1061
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 267
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 904
+ClientConnectionId:413a1e24-1bd5-4738-840f-5e51c3627200
+Error Number:547,State:0,Class:16
+2020-06-11 08:53:50,187 [61] ERROR YfosCipherBondAPI.Controllers.CatalogController - Could not find a part of the path 'C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Documents\'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Documents\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 907
+2020-06-11 08:55:19,258 [55] ERROR YfosCipherBondAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1061
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 267
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 922
+ClientConnectionId:0cfdcf32-dd79-4cd6-9538-ed98f488542e
+Error Number:547,State:0,Class:16
+2020-06-11 08:55:38,928 [91] ERROR YfosCipherBondAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1061
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 267
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentBase64(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 922
+ClientConnectionId:0cfdcf32-dd79-4cd6-9538-ed98f488542e
+Error Number:547,State:0,Class:16
+2020-06-11 12:13:54,369 [10] ERROR YfosCipherBondAPI.Controllers.CatalogController - Procedure or function PROC_SEL_DocumentsByClient has too many arguments specified.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function PROC_SEL_DocumentsByClient has too many arguments specified.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.GetDocuments(Int32 NFK_Client, String virtualPath, Nullable`1 Active) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1031
+   at YfosCipherBondBackEnd.Actions.Task.GetDocuments(Int32 NFK_Client, String virtualPath, Int32 Active) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 259
+   at YfosCipherBondAPI.Controllers.CatalogController.GetDocuments(Int32 NFK_Client, Int32 activo) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 794
+ClientConnectionId:a2afde57-f85c-4b6c-9880-5945a2c18303
+Error Number:8144,State:2,Class:16
+2020-06-11 15:40:58,163 [79] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 883
+2020-06-11 15:43:10,863 [21] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 883
+2020-06-11 15:44:35,764 [21] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 883
+2020-06-11 15:46:29,257 [62] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 883
+2020-06-11 15:47:48,741 [21] ERROR YfosCipherBondAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1063
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 267
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 910
+ClientConnectionId:4cd8ccd9-2616-45d9-997b-1cd365e10667
+Error Number:547,State:0,Class:16
+2020-06-11 15:56:18,207 [47] ERROR YfosCipherBondAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1063
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 267
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 910
+ClientConnectionId:9f410761-f795-4daf-9436-6cbff77a8409
+Error Number:547,State:0,Class:16
+2020-06-11 16:49:16,080 [89] ERROR YfosCipherBondAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1063
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocument(DocumentCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 267
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 910
+ClientConnectionId:f68e5143-8201-4f9d-89ce-26276f8fd113
+Error Number:547,State:0,Class:16
+2020-06-11 17:53:36,873 [47] ERROR YfosCipherBondAPI.Controllers.CatalogController - Procedure or function 'PROC_INS_Document' expects parameter '@DocumentUrl', which was not supplied.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'PROC_INS_Document' expects parameter '@DocumentUrl', which was not supplied.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocumentData(Int32 NFK_Client, Int32 NFK_DocumentType, String DocumentName, String PhysicalName, String DocumentUrl, String Comments, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1880
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocumentData(Int32 NFK_Client, Int32 NFK_DocumentType, String DocumentName, String PhysicalName, String DocumentUrl, String comments, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 432
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 912
+ClientConnectionId:41ad0232-decd-4682-82f1-c2432350d68b
+Error Number:201,State:4,Class:16
+2020-06-11 17:55:20,822 [15] ERROR YfosCipherBondAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+Cannot insert the value NULL into column 'NFK_Document', table 'CipherBond.dbo.StatusRevisionDocument'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Document_DocumentType". The conflict occurred in database "CipherBond", table "dbo.DocumentType", column 'NPK_DocumentType'.
+Cannot insert the value NULL into column 'NFK_Document', table 'CipherBond.dbo.StatusRevisionDocument'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveDocumentData(Int32 NFK_Client, Int32 NFK_DocumentType, String DocumentName, String PhysicalName, String DocumentUrl, String Comments, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1880
+   at YfosCipherBondBackEnd.Actions.Task.SaveDocumentData(Int32 NFK_Client, Int32 NFK_DocumentType, String DocumentName, String PhysicalName, String DocumentUrl, String comments, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 432
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 912
+ClientConnectionId:640a3032-1274-47ac-9feb-dd187ba8da39
+Error Number:547,State:0,Class:16
+2020-06-11 17:58:04,017 [55] ERROR YfosCipherBondAPI.Controllers.CatalogController - The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveDocumentMovil(DocumentForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 888

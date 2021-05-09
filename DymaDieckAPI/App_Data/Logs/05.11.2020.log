@@ -1,0 +1,57 @@
+2020-11-05 00:37:35,905 [27] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:e29cec0b-215f-490b-a483-985195cc8207
+Error Number:208,State:1,Class:16
+2020-11-05 00:41:57,379 [27] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:e9ca19b7-1fd4-4168-8fd0-1295b0f04759
+Error Number:208,State:1,Class:16
+2020-11-05 00:47:53,973 [20] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:e29cec0b-215f-490b-a483-985195cc8207
+Error Number:208,State:1,Class:16
+2020-11-05 00:49:58,689 [37] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:e29cec0b-215f-490b-a483-985195cc8207
+Error Number:208,State:1,Class:16
+2020-11-05 00:52:02,601 [20] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:e29cec0b-215f-490b-a483-985195cc8207
+Error Number:208,State:1,Class:16
+2020-11-05 20:30:25,398 [31] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:1e5991be-dbbf-495e-bcb1-d8ec90e49f62
+Error Number:208,State:1,Class:16
+2020-11-05 21:48:16,269 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1599
+   en DymaDieckBackend.Actions.Task.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 346
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateIva(Int64 NPK_Iva, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1177
+2020-11-05 21:48:20,154 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1599
+   en DymaDieckBackend.Actions.Task.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 346
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateIva(Int64 NPK_Iva, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1177
+2020-11-05 21:48:26,303 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1599
+   en DymaDieckBackend.Actions.Task.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 346
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateIva(Int64 NPK_Iva, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1177

@@ -1,0 +1,28 @@
+2020-11-24 14:10:30,867 [62] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'NPK_RegistroIMSS'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NPK_RegistroIMSS'.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 467
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 122
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateRegistroIMSS(Int64 NPK_RegistroIMSS, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 357
+ClientConnectionId:8f0f9b12-4dc7-471d-aada-0a7747a4c51f
+Error Number:207,State:1,Class:16
+2020-11-24 14:10:45,431 [61] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'NPK_RegistroIMSS'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NPK_RegistroIMSS'.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 467
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 122
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateRegistroIMSS(Int64 NPK_RegistroIMSS, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 357
+ClientConnectionId:8f0f9b12-4dc7-471d-aada-0a7747a4c51f
+Error Number:207,State:1,Class:16
+2020-11-24 14:18:17,823 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'NPK_RegistroIMSS'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NPK_RegistroIMSS'.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 467
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 122
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateRegistroIMSS(Int64 NPK_RegistroIMSS, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 357
+ClientConnectionId:f37b6569-9a91-4bf4-8a75-787757a3e5b1
+Error Number:207,State:1,Class:16
+2020-11-24 17:16:05,940 [44] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:1bd0196d-add4-49d8-98fb-139e7a92c0ce
+Error Number:208,State:1,Class:16

@@ -1,0 +1,7 @@
+2020-11-13 23:16:57,925 [18] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'TipoMovimientoInventario'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'TipoMovimientoInventario'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerTipoMovimientoInventarios(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 3092
+   en DymaDieckBackend.Actions.Task.TraerTipoMovimientoInventarios(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 644
+   en DymaDieckAPI.Controllers.CatalogController.TraerTipoMovimientoInventarios(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2257
+ClientConnectionId:f096c6fa-8695-4afc-ac2f-d34f1c351994
+Error Number:207,State:1,Class:16

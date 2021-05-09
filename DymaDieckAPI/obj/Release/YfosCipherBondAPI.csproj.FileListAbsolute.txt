@@ -1,0 +1,136 @@
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\YfosCipherBondAPI.dll.config
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\YfosCipherBondAPI.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\YfosCipherBondAPI.pdb
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\csc.exe
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\csc.exe.config
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\csc.rsp
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\csi.exe
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\csi.exe.config
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\csi.rsp
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.AppContext.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Console.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.IO.Compression.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Security.Claims.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.ValueTuple.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\vbc.exe
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\vbc.exe.config
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\vbc.rsp
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\VBCSCompiler.exe
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\Newtonsoft.Json.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.Http.WebHost.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.Http.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.Mvc.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.Razor.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.WebPages.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.WebPages.Razor.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\Newtonsoft.Json.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\System.Web.Http.WebHost.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.csprojAssemblyReference.cache
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.csproj.CopyComplete
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.pdb
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\YfosCipherBondAPI.dll.config
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\YfosCipherBondAPI.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\YfosCipherBondAPI.pdb
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\csc.exe
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\csc.exe.config
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\csc.rsp
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\csi.exe
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\csi.exe.config
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\csi.rsp
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.AppContext.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Console.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.IO.Compression.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Security.Claims.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.ValueTuple.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\vbc.exe
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\vbc.exe.config
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\vbc.rsp
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\VBCSCompiler.exe
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\Newtonsoft.Json.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.Http.WebHost.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.Http.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.Mvc.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.Razor.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.WebPages.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.WebPages.Razor.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\Newtonsoft.Json.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\System.Web.Http.WebHost.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.csprojAssemblyReference.cache
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.csproj.CopyComplete
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\obj\Release\YfosCipherBondAPI.pdb

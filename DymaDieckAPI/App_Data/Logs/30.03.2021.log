@@ -1,0 +1,20 @@
+2021-03-30 14:31:35,994 [10] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 40
+2021-03-30 14:45:38,845 [36] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 40
+2021-03-30 15:30:07,650 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwVenta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwVenta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerVentas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 98
+   en DymaDieckBackend.Actions.Task.TraerVentas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 52
+   en DymaDieckAPI.Controllers.CatalogController.TraerVentas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 74
+ClientConnectionId:f605b948-b5b0-4fbc-a347-9d90dd0a1fbb
+Error Number:208,State:1,Class:16
+2021-03-30 15:30:54,788 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwVenta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwVenta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerVentas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 98
+   en DymaDieckBackend.Actions.Task.TraerVentas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 52
+   en DymaDieckAPI.Controllers.CatalogController.TraerVentas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 74
+ClientConnectionId:f605b948-b5b0-4fbc-a347-9d90dd0a1fbb
+Error Number:208,State:1,Class:16

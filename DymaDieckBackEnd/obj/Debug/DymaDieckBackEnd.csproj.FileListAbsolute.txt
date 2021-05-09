@@ -1,0 +1,14 @@
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\bin\Debug\DymaDieckBackEnd.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\bin\Debug\DymaDieckBackEnd.pdb
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.csprojAssemblyReference.cache
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.csproj.CoreCompileInputs.cache
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.csproj.CopyComplete
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.pdb
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\bin\Debug\DymaDieckBackEnd.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\bin\Debug\DymaDieckBackEnd.pdb
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.csprojAssemblyReference.cache
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.csproj.CoreCompileInputs.cache
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.csproj.CopyComplete
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\obj\Debug\DymaDieckBackEnd.pdb

@@ -1,0 +1,36 @@
+2021-03-11 13:33:30,831 [20] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 354
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 100
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 265
+ClientConnectionId:1b857689-df7f-48a9-96f8-2644c0d5ea7b
+Error Number:547,State:0,Class:16
+2021-03-11 13:33:32,614 [9] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 354
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 100
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 265
+ClientConnectionId:1b857689-df7f-48a9-96f8-2644c0d5ea7b
+Error Number:547,State:0,Class:16
+2021-03-11 13:33:35,660 [35] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 354
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 100
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 265
+ClientConnectionId:1b857689-df7f-48a9-96f8-2644c0d5ea7b
+Error Number:547,State:0,Class:16
+2021-03-11 13:33:36,311 [20] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_TipoEmpleado". The conflict occurred in database "DIECKCRM", table "dbo.TipoEmpleado", column 'NPK_TipoEmpleado'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 354
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 100
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 265
+ClientConnectionId:1b857689-df7f-48a9-96f8-2644c0d5ea7b
+Error Number:547,State:0,Class:16

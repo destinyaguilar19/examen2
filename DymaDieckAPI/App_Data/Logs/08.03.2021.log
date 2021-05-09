@@ -1,0 +1,72 @@
+2021-03-08 14:43:49,990 [8] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 4 (text= - String)
+System.Data.DataException: Error parsing column 4 (text= - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserialize0a4b8981-9192-4296-9350-053644d99005(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerClientes(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1169
+   en DymaDieckBackend.Actions.Task.TraerClientes(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 263
+   en DymaDieckAPI.Controllers.CatalogController.TraerClientes(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 858
+2021-03-08 14:44:34,458 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 4 (text= - String)
+System.Data.DataException: Error parsing column 4 (text= - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserialize0a4b8981-9192-4296-9350-053644d99005(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerClientes(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1169
+   en DymaDieckBackend.Actions.Task.TraerClientes(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 263
+   en DymaDieckAPI.Controllers.CatalogController.TraerClientes(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 858
+2021-03-08 14:55:41,596 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 4 (text= - String)
+System.Data.DataException: Error parsing column 4 (text= - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserialize0a4b8981-9192-4296-9350-053644d99005(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerClientes(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1169
+   en DymaDieckBackend.Actions.Task.TraerClientes(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 263
+   en DymaDieckAPI.Controllers.CatalogController.TraerClientes(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 858
+2021-03-08 14:56:56,695 [29] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 4 (text= - String)
+System.Data.DataException: Error parsing column 4 (text= - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserialize0a4b8981-9192-4296-9350-053644d99005(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerClientes(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1169
+   en DymaDieckBackend.Actions.Task.TraerClientes(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 263
+   en DymaDieckAPI.Controllers.CatalogController.TraerClientes(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 858
+2021-03-08 14:57:44,334 [28] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 4 (text= - String)
+System.Data.DataException: Error parsing column 4 (text= - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserialize0a4b8981-9192-4296-9350-053644d99005(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerClientes(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1169
+   en DymaDieckBackend.Actions.Task.TraerClientes(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 263
+   en DymaDieckAPI.Controllers.CatalogController.TraerClientes(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 858
+2021-03-08 14:58:45,939 [28] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 4 (text= - String)
+System.Data.DataException: Error parsing column 4 (text= - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserialize0a4b8981-9192-4296-9350-053644d99005(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerClientes(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1169
+   en DymaDieckBackend.Actions.Task.TraerClientes(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 263
+   en DymaDieckAPI.Controllers.CatalogController.TraerClientes(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 858

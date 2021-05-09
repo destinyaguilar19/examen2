@@ -1,0 +1,18 @@
+2020-09-19 21:25:39,077 [15] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 69
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:79332020-9b53-44b0-9c59-ea8e89254771
+Error Number:515,State:2,Class:16
+2020-09-19 21:27:54,210 [16] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 69
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:79332020-9b53-44b0-9c59-ea8e89254771
+Error Number:515,State:2,Class:16

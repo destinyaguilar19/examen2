@@ -1,0 +1,4 @@
+2020-06-02 08:31:24,491 [51] INFO YfosPhoneSecurityAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-02 08:31:24,502 [51] ERROR YfosPhoneSecurityAPI.Controllers.TokenController - System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosPhoneSecurityAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\Licenses\YfosPhoneSecurityAPI\Controllers\TokenController.cs:line 35
+2020-06-02 08:31:24,506 [51] INFO YfosPhoneSecurityAPI.Controllers.TokenController - <<<<<<<<<< Login

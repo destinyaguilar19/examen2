@@ -1,0 +1,145 @@
+2020-11-09 21:11:31,144 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:0164d871-73c0-4600-92a7-1b0782a31d73
+Error Number:207,State:1,Class:16
+2020-11-09 21:11:51,866 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:0164d871-73c0-4600-92a7-1b0782a31d73
+Error Number:207,State:1,Class:16
+2020-11-09 21:18:34,571 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:f9b78b36-0e7a-46f7-a735-4838384a6964
+Error Number:207,State:1,Class:16
+2020-11-09 21:43:55,372 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Conversion failed when converting the varchar value 'IsNull(@Activo, Activo) order by Producto' to data type smallint.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value 'IsNull(@Activo, Activo) order by Producto' to data type smallint.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:3fe0b9b9-3897-4917-9086-6a83bb18b877
+Error Number:245,State:1,Class:16
+2020-11-09 21:47:57,409 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:304dfc31-65c0-4e1c-a727-5eeb31ed0006
+Error Number:207,State:1,Class:16
+2020-11-09 21:49:08,986 [5] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:304dfc31-65c0-4e1c-a727-5eeb31ed0006
+Error Number:207,State:1,Class:16
+2020-11-09 21:49:15,803 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:304dfc31-65c0-4e1c-a727-5eeb31ed0006
+Error Number:207,State:1,Class:16
+2020-11-09 21:49:40,503 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:304dfc31-65c0-4e1c-a727-5eeb31ed0006
+Error Number:207,State:1,Class:16
+2020-11-09 21:51:13,964 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:c367ba37-4462-4a3c-96ea-883b874ee69c
+Error Number:207,State:1,Class:16
+2020-11-09 22:02:52,156 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserialize146802b1-b44c-40ae-88d1-874b930bfabd(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-09 23:31:40,377 [65] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:e0c9c8e3-dbb3-408d-a111-68c6e4bb69da
+Error Number:208,State:1,Class:16
+2020-11-09 23:32:07,488 [56] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:52d673ed-ee49-446f-9435-8a786d221ce4
+Error Number:208,State:1,Class:16
+2020-11-09 23:35:00,917 [68] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:74a54c78-2e4d-4106-a891-c65702799d4e
+Error Number:208,State:1,Class:16
+2020-11-09 23:36:12,486 [68] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:52d673ed-ee49-446f-9435-8a786d221ce4
+Error Number:208,State:1,Class:16
+2020-11-09 23:36:14,330 [62] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:8166225f-849d-469b-a497-2cdc660b643c
+Error Number:208,State:1,Class:16
+2020-11-09 23:36:15,894 [65] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:78b89ff3-5463-4766-ba99-c6d13eeba054
+Error Number:208,State:1,Class:16
+2020-11-09 23:36:17,547 [64] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:e0c9c8e3-dbb3-408d-a111-68c6e4bb69da
+Error Number:208,State:1,Class:16
+2020-11-09 23:41:29,275 [58] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:74a54c78-2e4d-4106-a891-c65702799d4e
+Error Number:208,State:1,Class:16
+2020-11-09 23:44:42,449 [10] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:cdfcd189-22c1-446c-ab3f-10d253692440
+Error Number:208,State:1,Class:16
+2020-11-09 23:48:59,104 [9] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:79174ba1-907d-4270-b7a9-b4f3ee227524
+Error Number:208,State:1,Class:16

@@ -1,0 +1,257 @@
+2021-02-04 13:34:15,051 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:d6d22a6a-9931-4582-8054-8e3811244b89
+Error Number:208,State:1,Class:16
+2021-02-04 13:34:37,702 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarInstalador(InstaladorCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarInstalador(InstaladorCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 250
+2021-02-04 13:34:56,591 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarInstalador(InstaladorCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarInstalador(InstaladorCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 250
+2021-02-04 13:36:21,434 [12] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:ac61afd0-6486-414a-812e-a8b904d73092
+Error Number:208,State:1,Class:16
+2021-02-04 13:37:34,413 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:ac61afd0-6486-414a-812e-a8b904d73092
+Error Number:208,State:1,Class:16
+2021-02-04 13:38:08,754 [8] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarInstalador(InstaladorCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarInstalador(InstaladorCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 250
+2021-02-04 13:39:28,512 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:d6d22a6a-9931-4582-8054-8e3811244b89
+Error Number:208,State:1,Class:16
+2021-02-04 13:40:22,257 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:d6d22a6a-9931-4582-8054-8e3811244b89
+Error Number:208,State:1,Class:16
+2021-02-04 13:41:32,892 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:d6d22a6a-9931-4582-8054-8e3811244b89
+Error Number:208,State:1,Class:16
+2021-02-04 13:42:36,585 [8] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:d6d22a6a-9931-4582-8054-8e3811244b89
+Error Number:208,State:1,Class:16
+2021-02-04 13:58:35,202 [27] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:cf62657e-2b93-4ff5-a07f-d70c94d5dc47
+Error Number:208,State:1,Class:16
+2021-02-04 14:01:44,132 [38] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:cf62657e-2b93-4ff5-a07f-d70c94d5dc47
+Error Number:208,State:1,Class:16
+2021-02-04 14:02:04,787 [43] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:cf62657e-2b93-4ff5-a07f-d70c94d5dc47
+Error Number:208,State:1,Class:16
+2021-02-04 14:02:25,050 [43] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:208,State:1,Class:16
+2021-02-04 14:03:29,312 [38] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:208,State:1,Class:16
+2021-02-04 14:03:59,353 [43] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'FleteroTerrestre', table 'DIECKCRM.dbo.FleteroTerrestre'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FleteroTerrestre', table 'DIECKCRM.dbo.FleteroTerrestre'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarFleteroterrestre(FleteroterrestreCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1200
+   en DymaDieckBackend.Actions.Task.GuardarFleteroterrestre(FleteroterrestreCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 271
+   en DymaDieckAPI.Controllers.CatalogController.GuardarFleteroterrestre(FleteroterrestreForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 914
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:515,State:2,Class:16
+2021-02-04 14:07:02,649 [38] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'FleteroTerrestre', table 'DIECKCRM.dbo.FleteroTerrestre'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FleteroTerrestre', table 'DIECKCRM.dbo.FleteroTerrestre'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarFleteroterrestre(FleteroterrestreCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1200
+   en DymaDieckBackend.Actions.Task.GuardarFleteroterrestre(FleteroterrestreCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 271
+   en DymaDieckAPI.Controllers.CatalogController.GuardarFleteroterrestre(FleteroterrestreForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 914
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:515,State:2,Class:16
+2021-02-04 14:07:51,699 [38] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:208,State:1,Class:16
+2021-02-04 14:08:16,767 [48] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:208,State:1,Class:16
+2021-02-04 14:10:45,882 [52] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:10:49,262 [47] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:11:07,224 [50] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:11:13,584 [50] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:11:39,393 [51] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:12:27,063 [51] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:12:56,836 [51] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1568
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:15:17,077 [51] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:20:19,387 [55] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:21:13,394 [55] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:24:13,916 [61] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:429630a2-1e8c-4c41-b4e4-40208dd1f5d9
+Error Number:8152,State:2,Class:16
+2021-02-04 14:25:16,311 [59] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:29:18,639 [61] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:837c0209-67ba-4c75-b799-d2c21474d3d6
+Error Number:8152,State:2,Class:16
+2021-02-04 14:34:18,402 [55] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:429630a2-1e8c-4c41-b4e4-40208dd1f5d9
+Error Number:8152,State:2,Class:16

@@ -1,0 +1,171 @@
+2020-06-17 08:02:30,335 [7] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 42
+2020-06-17 08:37:19,575 [35] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 42
+2020-06-17 08:37:46,892 [36] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 42
+2020-06-17 08:38:34,404 [35] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 42
+2020-06-17 08:42:03,690 [35] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 42
+2020-06-17 08:43:58,699 [38] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 08:45:43,690 [35] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 08:46:13,863 [35] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 08:46:21,595 [35] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 08:46:32,615 [35] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 08:47:13,821 [35] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 08:47:54,446 [38] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 08:48:43,915 [46] ERROR YfosAPI.Controllers.CatalogController - Format of the initialization string does not conform to specification starting at index 0.
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at YfosBackEnd.Util.DbManager.<>c.<.cctor>b__3_0(String clientConnectionString) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Util\DbManager.cs:line 10
+   at YfosBackEnd.Repositories.CatalogRepository.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 53
+   at YfosAPI.Controllers.CatalogController.GetData() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 44
+2020-06-17 09:26:05,501 [19] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.SaveData(DataForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 93
+2020-06-17 09:27:22,361 [29] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.SaveData(DataForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 93
+2020-06-17 09:28:03,747 [19] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNpkUser() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 74
+   at YfosAPI.Controllers.CatalogController.SaveData(DataForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 101
+2020-06-17 09:28:31,351 [19] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNpkUser() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 74
+   at YfosAPI.Controllers.CatalogController.SaveData(DataForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 101

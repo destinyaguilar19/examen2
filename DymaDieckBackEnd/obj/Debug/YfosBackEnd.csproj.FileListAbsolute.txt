@@ -1,0 +1,6 @@
+C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\bin\Debug\YfosBackEnd.dll
+C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\bin\Debug\YfosBackEnd.pdb
+C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\obj\Debug\YfosBackEnd.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\obj\Debug\YfosBackEnd.csproj.CopyComplete
+C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\obj\Debug\YfosBackEnd.dll
+C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\obj\Debug\YfosBackEnd.pdb

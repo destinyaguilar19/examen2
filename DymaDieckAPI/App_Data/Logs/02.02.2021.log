@@ -1,0 +1,18 @@
+2021-02-02 17:54:14,457 [52] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+ClientConnectionId:bfc5a880-1363-4267-89e2-d284792c8b56
+Error Number:515,State:2,Class:16
+2021-02-02 17:54:54,427 [19] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+ClientConnectionId:3bd2dcf3-dddf-4cd2-aee2-f57aa50a2373
+Error Number:515,State:2,Class:16

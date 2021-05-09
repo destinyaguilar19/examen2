@@ -1,0 +1,467 @@
+2020-06-04 07:00:17,595 [28] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-04 07:00:33,098 [28] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-04 07:02:48,943 [28] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-04 07:08:38,376 [28] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 70
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-04 07:10:33,956 [61] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveEmployeeType(EmployeeTypeForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 401
+2020-06-04 07:13:22,350 [61] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-04 07:13:39,014 [61] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-04 08:23:22,599 [68] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:efcbd306-c216-46d8-84b1-0a96967791cc
+Error Number:207,State:1,Class:16
+2020-06-04 08:27:02,019 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:efcbd306-c216-46d8-84b1-0a96967791cc
+Error Number:207,State:1,Class:16
+2020-06-04 08:29:26,940 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:efcbd306-c216-46d8-84b1-0a96967791cc
+Error Number:207,State:1,Class:16
+2020-06-04 08:34:10,797 [72] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:efcbd306-c216-46d8-84b1-0a96967791cc
+Error Number:207,State:1,Class:16
+2020-06-04 08:46:54,135 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:70288abd-b3ca-4071-bfb5-8281cc3b0fc7
+Error Number:207,State:1,Class:16
+2020-06-04 08:47:05,198 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:70288abd-b3ca-4071-bfb5-8281cc3b0fc7
+Error Number:207,State:1,Class:16
+2020-06-04 08:48:40,489 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:70288abd-b3ca-4071-bfb5-8281cc3b0fc7
+Error Number:207,State:1,Class:16
+2020-06-04 08:49:28,129 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:70288abd-b3ca-4071-bfb5-8281cc3b0fc7
+Error Number:207,State:1,Class:16
+2020-06-04 08:50:50,401 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:70288abd-b3ca-4071-bfb5-8281cc3b0fc7
+Error Number:207,State:1,Class:16
+2020-06-04 09:01:35,014 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:57ef6138-74be-45e9-8483-cdcbc05e08ac
+Error Number:207,State:1,Class:16
+2020-06-04 09:05:56,210 [76] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:8fb9cf91-25d8-42fa-8f31-19d40463e7a7
+Error Number:207,State:1,Class:16
+2020-06-04 09:07:24,151 [37] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:8b051fe1-b42b-4ede-bb4d-b2eba7128d03
+Error Number:207,State:1,Class:16
+2020-06-04 09:13:41,961 [89] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:13:42,241 [89] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:dc801d2a-e65b-45fd-91fb-d19373585a95
+Error Number:6,State:0,Class:20
+2020-06-04 09:13:42,475 [89] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:14:07,737 [90] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:14:52,498 [90] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:7f878d73-d30c-4d8c-9ad7-22bebecc8431
+Error Number:6,State:0,Class:20
+2020-06-04 09:14:52,504 [90] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:15:33,513 [90] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:15:33,521 [90] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:18cf2686-4d46-49d2-b170-b4745e19c291
+Error Number:6,State:0,Class:20
+2020-06-04 09:15:33,523 [90] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:17:27,657 [90] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:17:27,660 [90] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:440c0c70-6137-4664-9f82-9150cf3d4555
+Error Number:6,State:0,Class:20
+2020-06-04 09:17:27,663 [90] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:17:35,233 [90] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-04 09:17:38,055 [90] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-04 09:17:38,057 [90] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.DeviceAdminRepository.AuthenticateUserDevice(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\DeviceAdminRepository.cs:line 45
+   at YfosCipherBondBackEnd.Actions.Task.LoginUser(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 29
+   at YfosCipherBondAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 36
+ClientConnectionId:56b8dcee-a857-43bd-ba31-935fda2714e7
+Error Number:6,State:0,Class:20
+2020-06-04 09:17:38,059 [90] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-04 09:17:54,547 [90] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:17:54,548 [90] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:eb73fd0f-b5ba-47b7-9a8f-43c19c1fe629
+Error Number:6,State:0,Class:20
+2020-06-04 09:17:54,550 [90] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:19:21,792 [90] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:19:22,059 [90] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:d34a6c86-b6c6-4b0e-9441-bc764085128d
+Error Number:6,State:0,Class:20
+2020-06-04 09:19:22,249 [90] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:45:03,962 [91] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:45:03,964 [91] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:ad4367cf-f652-4528-9503-6b2f85ef462a
+Error Number:6,State:0,Class:20
+2020-06-04 09:45:03,966 [91] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:51:23,901 [61] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:51:23,903 [61] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:d13414aa-27ad-4e40-9cd5-c2e1758fa726
+Error Number:6,State:0,Class:20
+2020-06-04 09:51:23,909 [61] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:52:15,758 [61] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-04 09:52:15,768 [61] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception (0x80004005): The handle is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+ClientConnectionId:71cac07d-4314-41b0-956f-c4577fffaa04
+Error Number:6,State:0,Class:20
+2020-06-04 09:52:15,774 [61] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-06-04 09:54:57,349 [6] ERROR YfosCipherBondAPI.Controllers.CatalogController - Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Name'.
+Invalid column name 'LastFatherName'.
+Invalid column name 'LastMotherName'.
+Invalid column name 'CompanyName'.
+Invalid column name 'BirthDate'.
+Invalid column name 'Email'.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:5d724888-ffe0-4146-9325-00b517b7f99b
+Error Number:207,State:1,Class:16
+2020-06-04 14:45:55,150 [47] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-04 14:48:06,671 [45] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-04 16:32:02,661 [77] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-04 16:32:08,850 [40] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-04 17:03:43,530 [80] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-04 17:05:54,427 [80] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-04 17:13:31,416 [62] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350

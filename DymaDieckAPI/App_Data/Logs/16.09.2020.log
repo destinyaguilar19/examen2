@@ -1,0 +1,440 @@
+2020-09-16 17:30:44,100 [11] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:30:44,119 [11] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:5d18be01-a92e-4a06-b784-0f76dabb1dc7
+Error Number:4060,State:1,Class:11
+2020-09-16 17:30:44,224 [11] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:30:58,794 [7] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:30:58,796 [7] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:22733868-8044-451d-9d48-cd13f7e44c73
+Error Number:4060,State:1,Class:11
+2020-09-16 17:30:58,799 [7] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:31:06,170 [7] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:31:06,172 [7] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:22733868-8044-451d-9d48-cd13f7e44c73
+Error Number:4060,State:1,Class:11
+2020-09-16 17:31:06,174 [7] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:31:07,304 [11] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:31:07,307 [11] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:22733868-8044-451d-9d48-cd13f7e44c73
+Error Number:4060,State:1,Class:11
+2020-09-16 17:31:07,309 [11] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:31:08,105 [12] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:31:08,107 [12] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:22733868-8044-451d-9d48-cd13f7e44c73
+Error Number:4060,State:1,Class:11
+2020-09-16 17:31:08,110 [12] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:31:19,222 [13] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:31:19,303 [13] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:5fa44e4a-caec-4262-844c-e67bfa6b30cd
+Error Number:4060,State:1,Class:11
+2020-09-16 17:31:19,324 [13] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:32:28,006 [12] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:32:28,008 [12] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:f0126e9b-8c96-46dc-8db8-7e4181377247
+Error Number:4060,State:1,Class:11
+2020-09-16 17:32:28,011 [12] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:33:29,876 [12] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:33:29,878 [12] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:d6114711-19ea-4fca-bc8a-9df68150d844
+Error Number:4060,State:1,Class:11
+2020-09-16 17:33:29,881 [12] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:33:57,841 [13] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:33:57,844 [13] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:d6114711-19ea-4fca-bc8a-9df68150d844
+Error Number:4060,State:1,Class:11
+2020-09-16 17:33:57,847 [13] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:33:59,137 [7] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:33:59,142 [7] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:d6114711-19ea-4fca-bc8a-9df68150d844
+Error Number:4060,State:1,Class:11
+2020-09-16 17:33:59,144 [7] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:34:00,398 [14] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:34:00,400 [14] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:d6114711-19ea-4fca-bc8a-9df68150d844
+Error Number:4060,State:1,Class:11
+2020-09-16 17:34:00,403 [14] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:34:01,976 [15] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:34:01,978 [15] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:d6114711-19ea-4fca-bc8a-9df68150d844
+Error Number:4060,State:1,Class:11
+2020-09-16 17:34:01,980 [15] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:34:03,749 [15] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:34:03,751 [15] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:d6114711-19ea-4fca-bc8a-9df68150d844
+Error Number:4060,State:1,Class:11
+2020-09-16 17:34:03,755 [15] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:34:05,592 [13] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:34:05,708 [13] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:d6114711-19ea-4fca-bc8a-9df68150d844
+Error Number:4060,State:1,Class:11
+2020-09-16 17:34:05,792 [13] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:38:30,816 [16] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:38:30,816 [7] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:38:30,818 [16] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:8179f01c-2e2f-4539-8539-1538cb14ed76
+Error Number:4060,State:1,Class:11
+2020-09-16 17:38:30,820 [7] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:8179f01c-2e2f-4539-8539-1538cb14ed76
+Error Number:4060,State:1,Class:11
+2020-09-16 17:38:30,824 [16] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:38:30,826 [7] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:38:55,166 [14] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:38:55,166 [7] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:38:55,168 [14] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:74bc791f-46f8-43cf-b4d0-1574c30fdd0d
+Error Number:4060,State:1,Class:11
+2020-09-16 17:38:55,170 [7] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:74bc791f-46f8-43cf-b4d0-1574c30fdd0d
+Error Number:4060,State:1,Class:11
+2020-09-16 17:38:55,173 [14] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:38:55,175 [7] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:42:26,335 [18] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:42:26,339 [18] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:9fc718f2-09f3-4b7b-b14d-4e72a21e504c
+Error Number:4060,State:1,Class:11
+2020-09-16 17:42:26,342 [18] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:47:05,908 [19] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:47:05,908 [20] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:47:05,908 [22] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-16 17:47:05,909 [19] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:23cbda2a-d286-4104-9f9a-3b06403f0d38
+Error Number:4060,State:1,Class:11
+2020-09-16 17:47:05,910 [20] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:23cbda2a-d286-4104-9f9a-3b06403f0d38
+Error Number:4060,State:1,Class:11
+2020-09-16 17:47:05,911 [22] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DIECKCRM2020" requested by the login. The login failed.
+Login failed for user 'Dieckcrm'.
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 27
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:23cbda2a-d286-4104-9f9a-3b06403f0d38
+Error Number:4060,State:1,Class:11
+2020-09-16 17:47:05,913 [19] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:47:05,915 [20] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 17:47:05,916 [22] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-16 19:34:35,116 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwEmpresa'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwEmpresa'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerEmpresas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 38
+   en DymaDieckBackend.Actions.Task.TraerEmpresas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 45
+   en DymaDieckAPI.Controllers.CatalogController.TraerEmpresas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 40
+ClientConnectionId:645593fb-c2d3-426f-827d-0b90bdfe5f1b
+Error Number:208,State:1,Class:16
+2020-09-16 19:38:31,684 [8] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwEmpresa'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwEmpresa'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerEmpresas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 38
+   en DymaDieckBackend.Actions.Task.TraerEmpresas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 45
+   en DymaDieckAPI.Controllers.CatalogController.TraerEmpresas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 40
+ClientConnectionId:645593fb-c2d3-426f-827d-0b90bdfe5f1b
+Error Number:208,State:1,Class:16
+2020-09-16 19:41:10,208 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Empresa'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Empresa'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerEmpresas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 38
+   en DymaDieckBackend.Actions.Task.TraerEmpresas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 45
+   en DymaDieckAPI.Controllers.CatalogController.TraerEmpresas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 40
+ClientConnectionId:645593fb-c2d3-426f-827d-0b90bdfe5f1b
+Error Number:207,State:1,Class:16

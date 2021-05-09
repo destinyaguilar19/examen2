@@ -1,0 +1,158 @@
+2020-10-25 10:28:48,921 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236
+2020-10-25 10:28:50,989 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236
+2020-10-25 10:29:57,470 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236
+2020-10-25 10:31:32,458 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236
+2020-10-25 10:33:29,273 [15] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236
+2020-10-25 10:33:49,130 [19] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236
+2020-10-25 20:08:30,098 [62] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:d77b9a17-17d5-4cac-8407-7d096a773ab8
+Error Number:208,State:1,Class:16
+2020-10-25 20:10:32,115 [53] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:d77b9a17-17d5-4cac-8407-7d096a773ab8
+Error Number:208,State:1,Class:16
+2020-10-25 20:13:29,492 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:d77b9a17-17d5-4cac-8407-7d096a773ab8
+Error Number:208,State:1,Class:16
+2020-10-25 20:14:24,049 [53] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:d77b9a17-17d5-4cac-8407-7d096a773ab8
+Error Number:208,State:1,Class:16
+2020-10-25 20:15:13,157 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:d77b9a17-17d5-4cac-8407-7d096a773ab8
+Error Number:208,State:1,Class:16
+2020-10-25 20:16:13,642 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:d77b9a17-17d5-4cac-8407-7d096a773ab8
+Error Number:208,State:1,Class:16
+2020-10-25 20:21:45,670 [46] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:f8a84f82-cff9-4843-8f2d-80164e3320fa
+Error Number:208,State:1,Class:16
+2020-10-25 20:23:53,022 [66] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:f8a84f82-cff9-4843-8f2d-80164e3320fa
+Error Number:208,State:1,Class:16
+2020-10-25 20:25:12,668 [41] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:f8a84f82-cff9-4843-8f2d-80164e3320fa
+Error Number:208,State:1,Class:16
+2020-10-25 20:26:03,995 [41] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:f8a84f82-cff9-4843-8f2d-80164e3320fa
+Error Number:208,State:1,Class:16
+2020-10-25 20:31:04,178 [9] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:84d5233e-7a3c-426c-b0f5-65dff78b0cc7
+Error Number:208,State:1,Class:16
+2020-10-25 20:32:18,496 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:84d5233e-7a3c-426c-b0f5-65dff78b0cc7
+Error Number:208,State:1,Class:16
+2020-10-25 20:33:35,637 [51] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:84d5233e-7a3c-426c-b0f5-65dff78b0cc7
+Error Number:208,State:1,Class:16
+2020-10-25 20:35:50,152 [48] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:84d5233e-7a3c-426c-b0f5-65dff78b0cc7
+Error Number:208,State:1,Class:16
+2020-10-25 20:37:16,141 [54] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:84d5233e-7a3c-426c-b0f5-65dff78b0cc7
+Error Number:208,State:1,Class:16
+2020-10-25 20:38:31,488 [50] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:84d5233e-7a3c-426c-b0f5-65dff78b0cc7
+Error Number:208,State:1,Class:16
+2020-10-25 20:43:25,586 [60] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:84d5233e-7a3c-426c-b0f5-65dff78b0cc7
+Error Number:208,State:1,Class:16
+2020-10-25 20:51:10,989 [53] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:8de80a9c-886e-4587-b503-512ac1cb5873
+Error Number:208,State:1,Class:16
+2020-10-25 21:00:05,293 [71] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:8d7ddf7b-369c-4402-a55a-5bdc85c980e0
+Error Number:208,State:1,Class:16
+2020-10-25 21:01:15,194 [60] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwCategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwCategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerCategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 718
+   en DymaDieckBackend.Actions.Task.TraerCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 177
+   en DymaDieckAPI.Controllers.CatalogController.TraerCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 541
+ClientConnectionId:8d7ddf7b-369c-4402-a55a-5bdc85c980e0
+Error Number:208,State:1,Class:16

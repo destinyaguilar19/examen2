@@ -1,0 +1,6 @@
+2021-04-12 14:56:37,484 [7] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2816
+2021-04-12 15:10:01,233 [5] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2816

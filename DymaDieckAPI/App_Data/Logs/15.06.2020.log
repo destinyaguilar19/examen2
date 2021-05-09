@@ -1,0 +1,12 @@
+2020-06-15 16:31:54,688 [63] ERROR YfosCipherBondAPI.Controllers.CatalogController - Must declare the scalar variable "@NFK_Sale".
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@NFK_Sale".
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.GetSales(Int32 NFK_Client, Nullable`1 Active) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1953
+   at YfosCipherBondBackEnd.Actions.Task.GetSales(Int32 NFK_Client, Int32 Active) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 451
+   at YfosCipherBondAPI.Controllers.CatalogController.GetSales(Int32 NFK_Client, Int32 activo) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1711
+ClientConnectionId:c58dd1cc-836e-4fc6-a8b4-e83c97110972
+Error Number:137,State:2,Class:15
+2020-06-15 17:02:36,873 [75] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.GetSales(Int32 NFK_Client, Nullable`1 Active) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1953
+   at YfosCipherBondBackEnd.Actions.Task.GetSales(Int32 NFK_Client, Int32 Active) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 451
+   at YfosCipherBondAPI.Controllers.CatalogController.GetSales(Int32 NFK_Client, Int32 activo) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1711

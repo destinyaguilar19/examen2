@@ -1,0 +1,7 @@
+2020-11-30 13:36:50,968 [12] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:6d161f4d-83a1-4009-8133-5bf5b811572c
+Error Number:208,State:1,Class:16

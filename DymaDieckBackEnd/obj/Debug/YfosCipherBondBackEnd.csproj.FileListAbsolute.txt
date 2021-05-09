@@ -1,0 +1,25 @@
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosCipherBondBackEnd.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosCipherBondBackEnd.csproj.CopyComplete
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\bin\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\bin\Debug\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosCipherBondBackEnd\YfosCipherBondBackEnd\bin\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBondBackEnd\YfosCipherBondBackEnd\bin\Debug\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosCipherBondBackEnd\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\Licenses\YfosCipherBondBackEnd\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.csproj.CopyComplete
+C:\Yfos\Proyectos\Licenses\YfosCipherBondBackEnd\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBondBackEnd\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondBackEnd\bin\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondBackEnd\bin\Debug\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.csprojAssemblyReference.cache
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.csproj.CopyComplete
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosCipherBond\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\bin\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\bin\Debug\YfosCipherBondBackEnd.pdb
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.csproj.CopyComplete
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.dll
+C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\obj\Debug\YfosCipherBondBackEnd.pdb

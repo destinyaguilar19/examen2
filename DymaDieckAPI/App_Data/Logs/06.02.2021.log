@@ -1,0 +1,128 @@
+2021-02-06 15:49:26,334 [19] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 321
+2021-02-06 15:49:39,498 [18] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 321
+2021-02-06 15:53:14,061 [23] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSS(RegistroIMSSCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 408
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSS(RegistroIMSSCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 117
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 334
+2021-02-06 15:54:33,166 [23] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSS(RegistroIMSSCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 436
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSS(RegistroIMSSCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 117
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 334
+2021-02-06 15:54:34,347 [22] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSS(RegistroIMSSCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 436
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSS(RegistroIMSSCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 117
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 334
+2021-02-06 18:29:05,709 [70] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoComentario', table 'DIECKCRM.dbo.TipoComentario'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoComentario', table 'DIECKCRM.dbo.TipoComentario'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarTipoComentario(TipoComentarioCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2897
+   en DymaDieckBackend.Actions.Task.GuardarTipoComentario(TipoComentarioCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 606
+   en DymaDieckAPI.Controllers.CatalogController.GuardarTipoComentario(TipoComentarioForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2126
+ClientConnectionId:f5d40a98-527a-4510-9d98-cca03c048774
+Error Number:515,State:2,Class:16
+2021-02-06 18:29:13,950 [69] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoComentario', table 'DIECKCRM.dbo.TipoComentario'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoComentario', table 'DIECKCRM.dbo.TipoComentario'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarTipoComentario(TipoComentarioCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2897
+   en DymaDieckBackend.Actions.Task.GuardarTipoComentario(TipoComentarioCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 606
+   en DymaDieckAPI.Controllers.CatalogController.GuardarTipoComentario(TipoComentarioForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2126
+ClientConnectionId:f5d40a98-527a-4510-9d98-cca03c048774
+Error Number:515,State:2,Class:16
+2021-02-06 18:34:26,723 [70] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Activo'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Activo'.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarTipoEmpleado(TipoEmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 182
+   en DymaDieckBackend.Actions.Task.GuardarTipoEmpleado(TipoEmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarTipoEmpleado(TipoEmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 156
+ClientConnectionId:a2537fd0-f269-4adc-a8ae-1bfd135bbddc
+Error Number:207,State:1,Class:16
+2021-02-06 19:06:14,029 [41] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1653
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 363
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1231
+ClientConnectionId:d3ee1444-f241-4451-9f67-e3067ff4cd49
+Error Number:8152,State:2,Class:16
+2021-02-06 19:49:46,815 [12] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 323
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+ClientConnectionId:cf4da326-7381-4c23-8d55-2fc2228ebd54
+Error Number:515,State:2,Class:16
+2021-02-06 19:50:06,577 [87] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 323
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+ClientConnectionId:cf4da326-7381-4c23-8d55-2fc2228ebd54
+Error Number:515,State:2,Class:16
+2021-02-06 21:30:12,188 [17] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 21:30:14,240 [15] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:04:50,254 [39] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:04:50,767 [37] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:07:07,940 [36] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:09:04,151 [34] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:15:45,400 [36] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:15:46,874 [27] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:16:20,441 [31] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:18:29,554 [27] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-02-06 22:34:01,883 [14] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242

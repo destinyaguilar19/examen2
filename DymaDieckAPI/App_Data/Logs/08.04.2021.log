@@ -1,0 +1,48 @@
+2021-04-08 13:26:44,783 [17] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2816
+2021-04-08 13:59:51,080 [16] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2816
+2021-04-08 14:34:38,990 [28] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2816
+2021-04-08 14:36:36,338 [29] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarVenta(Ventaform datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 2816
+2021-04-08 16:52:46,683 [75] ERROR DymaDieckAPI.Jwt.JwtManager - ValidateToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.
+   en Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   en DymaDieckAPI.Jwt.JwtManager.GetPrincipal(String token) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Jwt\JwtManager.cs:línea 115
+2021-04-08 16:52:46,771 [78] ERROR DymaDieckAPI.Jwt.JwtManager - ValidateToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.
+   en Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   en DymaDieckAPI.Jwt.JwtManager.GetPrincipal(String token) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Jwt\JwtManager.cs:línea 115
+2021-04-08 16:52:46,826 [78] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - http://localhost:56733/api/v1/catalog/Empresa/1
+2021-04-08 16:52:46,827 [78] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU
+2021-04-08 16:52:46,812 [76] ERROR DymaDieckAPI.Jwt.JwtManager - ValidateToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.
+   en Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   en DymaDieckAPI.Jwt.JwtManager.GetPrincipal(String token) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Jwt\JwtManager.cs:línea 115
+2021-04-08 16:52:46,829 [76] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - http://localhost:56733/api/v1/catalog/Usuario/1
+2021-04-08 16:52:46,825 [75] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - http://localhost:56733/api/v1/catalog/Venta/2
+2021-04-08 16:52:46,831 [75] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU
+2021-04-08 16:52:46,831 [76] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU
+2021-04-08 16:52:46,823 [77] ERROR DymaDieckAPI.Jwt.JwtManager - ValidateToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.
+   en Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   en System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   en DymaDieckAPI.Jwt.JwtManager.GetPrincipal(String token) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Jwt\JwtManager.cs:línea 115
+2021-04-08 16:52:46,838 [77] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - http://localhost:56733/api/v1/catalog/Cliente/1
+2021-04-08 16:52:46,839 [77] ERROR DymaDieckAPI.Filters.AuthenticationFailureResult - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiTlBLX1VzdWFyaW8iOiIxIiwiZ2l2ZW5fbmFtZSI6IkFETUlOIiwibmJmIjoxNjE3ODI5NzIzLCJleHAiOjE2MTc5MTYxMjMsImlhdCI6MTYxNzgyOTcyMywiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.FUtJeHBq1QX_NLO55B4JXTe89d2CckHnnCG7l-XbRtU

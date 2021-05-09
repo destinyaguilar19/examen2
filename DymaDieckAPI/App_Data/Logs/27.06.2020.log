@@ -1,0 +1,123 @@
+2020-06-27 01:37:05,099 [57] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:37:05,440 [57] INFO YfosAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-27 01:37:05,442 [57] ERROR YfosAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosBackEnd.Repositories.DeviceAdminRepository.AuthenticateUserDevice(String username, String password, String imei) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\DeviceAdminRepository.cs:line 52
+   at YfosBackEnd.Actions.Task.LoginUser(String username, String password, String imei) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 32
+   at YfosAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\TokenController.cs:line 36
+2020-06-27 01:37:05,452 [57] INFO YfosAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-27 01:38:22,131 [57] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:38:24,411 [57] INFO YfosAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-27 01:38:24,412 [57] ERROR YfosAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwEmployee'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__11`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at YfosBackEnd.Repositories.UserRepository.ValidateEmployee(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 31
+   at YfosBackEnd.Actions.Task.LoginEmployee(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 27
+   at YfosAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\TokenController.cs:line 38
+ClientConnectionId:501286f2-63c5-4dab-959a-62bb83c2c6a6
+Error Number:208,State:1,Class:16
+2020-06-27 01:38:24,416 [57] INFO YfosAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-27 01:40:21,895 [57] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:40:23,476 [57] INFO YfosAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-27 01:40:23,477 [57] ERROR YfosAPI.Controllers.TokenController - System.Exception: Employee not found
+   at YfosBackEnd.Repositories.UserRepository.ValidateEmployee(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 33
+   at YfosBackEnd.Actions.Task.LoginEmployee(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 27
+   at YfosAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\TokenController.cs:line 38
+2020-06-27 01:40:23,489 [57] INFO YfosAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-27 01:40:33,526 [57] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:40:41,039 [57] INFO YfosAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-27 01:40:41,040 [57] ERROR YfosAPI.Controllers.TokenController - System.Exception: Employee not found
+   at YfosBackEnd.Repositories.UserRepository.ValidateEmployee(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 33
+   at YfosBackEnd.Actions.Task.LoginEmployee(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 27
+   at YfosAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\TokenController.cs:line 38
+2020-06-27 01:40:41,041 [57] INFO YfosAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-27 01:42:08,861 [57] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:45:18,207 [57] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:45:30,850 [57] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:55:19,284 [52] ERROR YfosAPI.Jwt.JwtManager - ValidateToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Inlmb3MiLCJjZXJ0c2VyaWFsbnVtYmVyIjoiMzUzMzgxMDkxNjgxMzUwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvc2lkIjoiMSIsInByaW1hcnlzaWQiOiIyIiwibmJmIjoxNTkxODA2MzMyLCJleHAiOjE1OTE4OTI3MzIsImlhdCI6MTU5MTgwNjMzMiwiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.u1PkVVL_17wBGz6dv1QktX4Ds7wevuZtfdZ4SZLPtWo
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at YfosAPI.Jwt.JwtManager.GetPrincipal(String token) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Jwt\JwtManager.cs:line 118
+2020-06-27 01:55:19,304 [52] ERROR YfosAPI.Filters.AuthenticationFailureResult - http://localhost:56733/api/v1/catalog/ServiceTypes
+2020-06-27 01:55:19,306 [52] ERROR YfosAPI.Filters.AuthenticationFailureResult - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Inlmb3MiLCJjZXJ0c2VyaWFsbnVtYmVyIjoiMzUzMzgxMDkxNjgxMzUwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvc2lkIjoiMSIsInByaW1hcnlzaWQiOiIyIiwibmJmIjoxNTkxODA2MzMyLCJleHAiOjE1OTE4OTI3MzIsImlhdCI6MTU5MTgwNjMzMiwiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.u1PkVVL_17wBGz6dv1QktX4Ds7wevuZtfdZ4SZLPtWo
+2020-06-27 01:56:14,591 [50] ERROR YfosAPI.Jwt.JwtManager - ValidateToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Inlmb3MiLCJjZXJ0c2VyaWFsbnVtYmVyIjoiMzUzMzgxMDkxNjgxMzUwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvc2lkIjoiMSIsInByaW1hcnlzaWQiOiIyIiwibmJmIjoxNTkxODA2MzMyLCJleHAiOjE1OTE4OTI3MzIsImlhdCI6MTU5MTgwNjMzMiwiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.u1PkVVL_17wBGz6dv1QktX4Ds7wevuZtfdZ4SZLPtWo
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at YfosAPI.Jwt.JwtManager.GetPrincipal(String token) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Jwt\JwtManager.cs:line 118
+2020-06-27 01:56:14,593 [50] ERROR YfosAPI.Filters.AuthenticationFailureResult - http://localhost:56733/api/v1/catalog/ServiceTypes
+2020-06-27 01:56:14,594 [50] ERROR YfosAPI.Filters.AuthenticationFailureResult - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Inlmb3MiLCJjZXJ0c2VyaWFsbnVtYmVyIjoiMzUzMzgxMDkxNjgxMzUwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvc2lkIjoiMSIsInByaW1hcnlzaWQiOiIyIiwibmJmIjoxNTkxODA2MzMyLCJleHAiOjE1OTE4OTI3MzIsImlhdCI6MTU5MTgwNjMzMiwiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.u1PkVVL_17wBGz6dv1QktX4Ds7wevuZtfdZ4SZLPtWo
+2020-06-27 01:56:47,320 [50] ERROR YfosAPI.Jwt.JwtManager - ValidateToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Inlmb3MiLCJjZXJ0c2VyaWFsbnVtYmVyIjoiMzUzMzgxMDkxNjgxMzUwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvc2lkIjoiMSIsInByaW1hcnlzaWQiOiIyIiwibmJmIjoxNTkxODA2MzMyLCJleHAiOjE1OTE4OTI3MzIsImlhdCI6MTU5MTgwNjMzMiwiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.u1PkVVL_17wBGz6dv1QktX4Ds7wevuZtfdZ4SZLPtWo
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at YfosAPI.Jwt.JwtManager.GetPrincipal(String token) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Jwt\JwtManager.cs:line 118
+2020-06-27 01:56:47,322 [50] ERROR YfosAPI.Filters.AuthenticationFailureResult - http://localhost:56733/api/v1/catalog/ServiceTypes
+2020-06-27 01:56:47,323 [50] ERROR YfosAPI.Filters.AuthenticationFailureResult - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Inlmb3MiLCJjZXJ0c2VyaWFsbnVtYmVyIjoiMzUzMzgxMDkxNjgxMzUwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvc2lkIjoiMSIsInByaW1hcnlzaWQiOiIyIiwibmJmIjoxNTkxODA2MzMyLCJleHAiOjE1OTE4OTI3MzIsImlhdCI6MTU5MTgwNjMzMiwiaXNzIjoiaHR0cDovL3lmb3MubmV0L1lmb3NFUlBBUEkvIn0.u1PkVVL_17wBGz6dv1QktX4Ds7wevuZtfdZ4SZLPtWo
+2020-06-27 01:57:06,845 [50] INFO YfosAPI.Controllers.TokenController - IMEI = 354597071169657
+2020-06-27 01:57:35,766 [50] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.SaveServiceTypes(ServiceTypesForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 86
+2020-06-27 01:58:25,345 [50] ERROR YfosAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosAPI.Controllers.BaseController.GetNPK_Client() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 32
+   at YfosAPI.Controllers.BaseController.GetConnectionString() in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\BaseController.cs:line 38
+   at YfosAPI.Controllers.CatalogController.SaveServiceTypes(ServiceTypesForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 86
+2020-06-27 02:03:23,294 [30] ERROR YfosAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosBackEnd.Repositories.CatalogRepository.SaveServiceTypes(ServiceTypesCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 94
+   at YfosBackEnd.Actions.Task.SaveServiceTypes(ServiceTypesCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 68
+   at YfosAPI.Controllers.CatalogController.SaveServiceTypes(ServiceTypesForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 95
+2020-06-27 02:04:56,574 [30] ERROR YfosAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosBackEnd.Repositories.CatalogRepository.SaveServiceTypes(ServiceTypesCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 94
+   at YfosBackEnd.Actions.Task.SaveServiceTypes(ServiceTypesCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 68
+   at YfosAPI.Controllers.CatalogController.SaveServiceTypes(ServiceTypesForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 95
+2020-06-27 02:08:27,356 [50] ERROR YfosAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosBackEnd.Repositories.CatalogRepository.SaveServiceTypes(ServiceTypesCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 94
+   at YfosBackEnd.Actions.Task.SaveServiceTypes(ServiceTypesCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 68
+   at YfosAPI.Controllers.CatalogController.SaveServiceTypes(ServiceTypesForm datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 95
+2020-06-27 02:10:48,675 [50] ERROR YfosAPI.Controllers.CatalogController - Invalid object name 'vwServiceTypes'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwServiceTypes'.
+   at YfosBackEnd.Repositories.CatalogRepository.GetServiceTypes(Nullable`1 Active) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 38
+   at YfosBackEnd.Actions.Task.GetServiceTypes(Int32 Active) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 54
+   at YfosAPI.Controllers.CatalogController.GetServiceTypes(Int32 activo) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 41
+ClientConnectionId:ac4bf73a-01e4-4718-af8c-a3077c3acc5f
+Error Number:208,State:1,Class:16
+2020-06-27 02:11:29,444 [35] ERROR YfosAPI.Controllers.CatalogController - Invalid column name 'ServiceTypes'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ServiceTypes'.
+   at YfosBackEnd.Repositories.CatalogRepository.GetServiceTypes(Nullable`1 Active) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 38
+   at YfosBackEnd.Actions.Task.GetServiceTypes(Int32 Active) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 54
+   at YfosAPI.Controllers.CatalogController.GetServiceTypes(Int32 activo) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\CatalogController.cs:line 41
+ClientConnectionId:ac4bf73a-01e4-4718-af8c-a3077c3acc5f
+Error Number:207,State:1,Class:16
+2020-06-27 02:13:45,494 [32] INFO YfosAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-06-27 02:13:45,506 [32] ERROR YfosAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 66
+   at YfosBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondBackEnd\Actions\Task.cs:line 43
+   at YfosAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\WebApiBase\YfosCipherBondAPI\Controllers\TokenController.cs:line 76
+2020-06-27 02:13:45,515 [32] INFO YfosAPI.Controllers.TokenController - <<<<<<<<<< Login Web

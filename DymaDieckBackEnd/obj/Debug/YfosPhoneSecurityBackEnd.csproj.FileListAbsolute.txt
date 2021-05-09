@@ -1,0 +1,7 @@
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosPhoneSecurityBackEnd.csproj.CoreCompileInputs.cache
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosPhoneSecurityBackEnd.csproj.CopyComplete
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\bin\Debug\YfosPhoneSecurityBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\bin\Debug\YfosPhoneSecurityBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosPhoneSecurityBackEnd.dll
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosPhoneSecurityBackEnd.pdb
+C:\Yfos\Proyectos\Licenses\YfosPhoneSecurity\YfosPhoneSecurity\obj\Debug\YfosPhoneSecurityBackEnd.csprojAssemblyReference.cache

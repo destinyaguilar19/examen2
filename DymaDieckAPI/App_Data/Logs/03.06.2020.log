@@ -1,0 +1,182 @@
+2020-06-03 13:25:15,858 [52] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:25:15,866 [52] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 60
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+2020-06-03 13:25:15,876 [52] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 13:28:45,987 [52] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:28:45,997 [52] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 60
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+2020-06-03 13:28:46,005 [52] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 13:30:35,371 [62] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:30:35,382 [62] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosCipherBondBackEnd.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 60
+   at YfosCipherBondBackEnd.Actions.Task.LoginUserWeb(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 44
+   at YfosCipherBondAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 69
+2020-06-03 13:30:35,388 [62] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 13:33:09,963 [64] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 13:33:10,130 [64] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:33:10,130 [64] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: Device not Authorized
+   at YfosCipherBondBackEnd.Repositories.DeviceAdminRepository.AuthenticateUserDevice(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\DeviceAdminRepository.cs:line 48
+   at YfosCipherBondBackEnd.Actions.Task.LoginUser(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 29
+   at YfosCipherBondAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 36
+2020-06-03 13:33:10,132 [64] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 13:43:41,013 [62] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 13:43:41,082 [62] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:43:41,083 [62] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosCipherBondBackEnd.Repositories.DeviceAdminRepository.AuthenticateUserDevice(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\DeviceAdminRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUser(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 29
+   at YfosCipherBondAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 36
+2020-06-03 13:43:41,085 [62] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 13:45:24,623 [18] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 13:46:23,311 [18] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:46:23,317 [18] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosCipherBondBackEnd.Repositories.DeviceAdminRepository.AuthenticateUserDevice(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\DeviceAdminRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUser(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 29
+   at YfosCipherBondAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 36
+2020-06-03 13:46:23,318 [18] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 13:46:31,315 [18] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 13:52:57,247 [18] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:52:57,248 [18] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: User not Autorized
+   at YfosCipherBondBackEnd.Repositories.DeviceAdminRepository.AuthenticateUserDevice(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\DeviceAdminRepository.cs:line 52
+   at YfosCipherBondBackEnd.Actions.Task.LoginUser(String username, String password, String imei) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 29
+   at YfosCipherBondAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 36
+2020-06-03 13:52:57,251 [18] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 13:53:02,869 [18] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 13:56:36,229 [41] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 13:58:34,762 [36] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 13:58:37,254 [36] INFO YfosCipherBondAPI.Controllers.TokenController - >>>>>>>>>> Login
+2020-06-03 13:58:37,256 [36] ERROR YfosCipherBondAPI.Controllers.TokenController - System.Exception: Employee not found
+   at YfosCipherBondBackEnd.Repositories.UserRepository.ValidateEmployee(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\UserRepository.cs:line 28
+   at YfosCipherBondBackEnd.Actions.Task.LoginEmployee(String username, String password) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 24
+   at YfosCipherBondAPI.Controllers.TokenController.Login(LoginForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\TokenController.cs:line 38
+2020-06-03 13:58:37,260 [36] INFO YfosCipherBondAPI.Controllers.TokenController - <<<<<<<<<< Login
+2020-06-03 14:00:39,412 [36] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 14:08:16,540 [36] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-03 17:01:13,233 [70] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:04:53,417 [10] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:06:25,228 [17] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:14:14,915 [70] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:15:34,700 [70] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:21:10,424 [11] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:21:23,195 [13] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:22:27,460 [13] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:24:02,303 [50] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:24:05,167 [50] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:24:53,826 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:25:15,190 [53] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:25:28,415 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 17:25:46,137 [50] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:24:06,445 [17] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:24:24,001 [19] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:24:37,577 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:25:54,087 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:29:15,276 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:30:42,768 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:31:02,041 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:31:23,703 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:33:10,671 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:34:18,827 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-03 18:36:40,452 [20] ERROR YfosCipherBondAPI.Controllers.CatalogController - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 69
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155

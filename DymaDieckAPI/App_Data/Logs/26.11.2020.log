@@ -1,0 +1,260 @@
+2020-11-26 01:34:29,626 [50] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:31a924bd-9985-4031-b901-2cefc6b1c7b9
+Error Number:208,State:1,Class:16
+2020-11-26 01:37:01,290 [46] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:31a924bd-9985-4031-b901-2cefc6b1c7b9
+Error Number:8152,State:2,Class:16
+2020-11-26 01:37:25,790 [46] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:31a924bd-9985-4031-b901-2cefc6b1c7b9
+Error Number:8152,State:2,Class:16
+2020-11-26 01:37:41,227 [44] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1540
+   en DymaDieckBackend.Actions.Task.GuardarIva(IvaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 341
+   en DymaDieckAPI.Controllers.CatalogController.GuardarIva(IvaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1154
+ClientConnectionId:31a924bd-9985-4031-b901-2cefc6b1c7b9
+Error Number:8152,State:2,Class:16
+2020-11-26 01:41:45,984 [47] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:31a924bd-9985-4031-b901-2cefc6b1c7b9
+Error Number:208,State:1,Class:16
+2020-11-26 10:28:31,780 [11] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarPaisOrigen(PaisOrigenCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2105
+   en DymaDieckBackend.Actions.Task.GuardarPaisOrigen(PaisOrigenCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 450
+   en DymaDieckAPI.Controllers.CatalogController.GuardarPaisOrigen(PaisOrigenForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1552
+ClientConnectionId:5bba5b2d-2768-477c-a48a-e43bbd4c0672
+Error Number:8152,State:2,Class:16
+2020-11-26 10:30:12,958 [15] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:36:31,051 [10] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:36:39,503 [10] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:38:31,385 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:39:41,628 [12] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:40:50,181 [22] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:41:44,818 [22] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:46:49,064 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:47:17,072 [12] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:50:06,613 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:52:24,334 [22] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:56:41,409 [16] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 10:57:14,436 [22] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 11:01:54,945 [42] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 11:03:41,037 [37] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 11:06:25,349 [37] ERROR DymaDieckAPI.Controllers.CatalogController - Error parsing column 13 (NFK_PaisOrigen=PULIDO - String)
+System.Data.DataException: Error parsing column 13 (NFK_PaisOrigen=PULIDO - String) ---> System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   en System.Convert.ChangeType(Object value, Type conversionType)
+   en Deserializeff3088e4-85da-49a3-91ed-032616c869ff(IDataReader )
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+2020-11-26 11:23:05,092 [12] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Producto_TipoAcabado". The conflict occurred in database "DIECKCRM", table "dbo.TipoAcabado", column 'NPK_TipoAcabado'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Producto_TipoAcabado". The conflict occurred in database "DIECKCRM", table "dbo.TipoAcabado", column 'NPK_TipoAcabado'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarProducto(ProductoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2246
+   en DymaDieckBackend.Actions.Task.GuardarProducto(ProductoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 472
+   en DymaDieckAPI.Controllers.CatalogController.GuardarProducto(ProductoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1644
+ClientConnectionId:6fed511a-a4e6-46ce-84e9-451b9eb04c3d
+Error Number:547,State:0,Class:16
+2020-11-26 11:23:08,338 [13] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Producto_TipoAcabado". The conflict occurred in database "DIECKCRM", table "dbo.TipoAcabado", column 'NPK_TipoAcabado'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Producto_TipoAcabado". The conflict occurred in database "DIECKCRM", table "dbo.TipoAcabado", column 'NPK_TipoAcabado'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarProducto(ProductoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2246
+   en DymaDieckBackend.Actions.Task.GuardarProducto(ProductoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 472
+   en DymaDieckAPI.Controllers.CatalogController.GuardarProducto(ProductoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1644
+ClientConnectionId:6fed511a-a4e6-46ce-84e9-451b9eb04c3d
+Error Number:547,State:0,Class:16

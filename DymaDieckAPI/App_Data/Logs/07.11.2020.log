@@ -1,0 +1,63 @@
+2020-11-07 20:34:41,539 [17] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:0e74d0df-11e7-4d7e-8112-4d41547c1da3
+Error Number:207,State:1,Class:16
+2020-11-07 20:38:05,207 [19] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:0e74d0df-11e7-4d7e-8112-4d41547c1da3
+Error Number:207,State:1,Class:16
+2020-11-07 20:48:40,774 [24] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:1d09b48e-698b-4016-ad22-5d6853c73b1c
+Error Number:207,State:1,Class:16
+2020-11-07 20:55:09,987 [31] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:dee95619-ba2e-497e-854f-5c0ccad4ca71
+Error Number:207,State:1,Class:16
+2020-11-07 20:55:31,304 [31] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:dee95619-ba2e-497e-854f-5c0ccad4ca71
+Error Number:207,State:1,Class:16
+2020-11-07 21:04:01,649 [35] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:2b953fd2-ee65-462a-a3f2-7074e668f60b
+Error Number:207,State:1,Class:16
+2020-11-07 21:08:28,142 [35] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:4a9ae551-010e-45b7-97e5-03640b094712
+Error Number:207,State:1,Class:16
+2020-11-07 21:09:22,491 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:4a9ae551-010e-45b7-97e5-03640b094712
+Error Number:207,State:1,Class:16
+2020-11-07 21:17:30,990 [36] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Producto'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Producto'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProductos(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2187
+   en DymaDieckBackend.Actions.Task.TraerProductos(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 466
+   en DymaDieckAPI.Controllers.CatalogController.TraerProductos(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1600
+ClientConnectionId:dc74d9cc-5332-4743-96d0-eb8df8d39509
+Error Number:207,State:1,Class:16

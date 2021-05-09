@@ -1,0 +1,65 @@
+2020-06-05 12:24:02,942 [50] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 12:24:25,072 [50] ERROR YfosCipherBondAPI.Controllers.CatalogController - Cannot convert null to 'int' because it is a non-nullable value type
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'int' because it is a non-nullable value type
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 76
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-05 12:27:33,201 [16] ERROR YfosCipherBondAPI.Controllers.CatalogController - Cannot convert null to 'int' because it is a non-nullable value type
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'int' because it is a non-nullable value type
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 76
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-05 12:28:01,584 [70] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 12:28:20,597 [16] ERROR YfosCipherBondAPI.Controllers.CatalogController - This SqlTransaction has completed; it is no longer usable.
+System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable.
+   at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 78
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-05 12:30:39,695 [16] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 12:30:57,350 [16] ERROR YfosCipherBondAPI.Controllers.CatalogController - ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 79
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-05 12:31:32,122 [16] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 12:31:46,398 [16] ERROR YfosCipherBondAPI.Controllers.CatalogController - This SqlTransaction has completed; it is no longer usable.
+System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable.
+   at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 79
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-05 12:37:33,137 [49] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 12:38:23,834 [69] ERROR YfosCipherBondAPI.Controllers.CatalogController - Cannot convert null to 'int' because it is a non-nullable value type
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'int' because it is a non-nullable value type
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 77
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+2020-06-05 12:48:45,151 [58] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 12:49:01,360 [41] ERROR YfosCipherBondAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'CreationDate', table 'CipherBond.dbo.Clients'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'NFK_Client', table 'CipherBond.dbo.ClientsRelationEmployees'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreationDate', table 'CipherBond.dbo.Clients'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'NFK_Client', table 'CipherBond.dbo.ClientsRelationEmployees'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 70
+   at YfosCipherBondBackEnd.Actions.Task.SaveClients(ClientsCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 85
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClients(ClientsForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 155
+ClientConnectionId:e8055f72-54f8-422f-bfdd-af1939801845
+Error Number:515,State:2,Class:16
+2020-06-05 12:49:52,739 [38] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 13:41:41,050 [78] INFO YfosCipherBondAPI.Controllers.TokenController - IMEI = 353381091681350
+2020-06-05 13:42:00,705 [6] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClientOpportunity(ClientOpportunityForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 917
+2020-06-05 13:43:15,959 [78] ERROR YfosCipherBondAPI.Controllers.CatalogController - Error converting data type nvarchar to datetime.
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to datetime.
+   at YfosCipherBondBackEnd.Repositories.CatalogRepository.SaveClientOpportunity(ClientOpportunityCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Repositories\CatalogRepository.cs:line 1244
+   at YfosCipherBondBackEnd.Actions.Task.SaveClientOpportunity(ClientOpportunityCatalog datos, Int32 NFK_User) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondBackEnd\Actions\Task.cs:line 305
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveClientOpportunity(ClientOpportunityForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 930
+ClientConnectionId:2cd46f33-df82-4188-af57-1395df69aabe
+Error Number:8114,State:5,Class:16

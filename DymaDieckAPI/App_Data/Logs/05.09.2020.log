@@ -1,0 +1,27 @@
+2020-09-05 18:47:36,656 [13] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-05 18:47:36,668 [13] ERROR DymaDieckAPI.Controllers.TokenController - System.Exception: User not Autorized
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 66
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Miguel\Dieck 2020\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+2020-09-05 18:47:36,731 [13] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web
+2020-09-05 19:45:07,207 [10] INFO DymaDieckAPI.Controllers.TokenController - >>>>>>>>>> Login Web
+2020-09-05 19:45:07,232 [10] ERROR DymaDieckAPI.Controllers.TokenController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'dieckcrm'.
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en DymaDieckBackend.Repositories.UserRepository.AuthenticateUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\UserRepository.cs:línea 58
+   en DymaDieckBackend.Actions.Task.LoginUserWeb(String username, String password) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 34
+   en DymaDieckAPI.Controllers.TokenController.LoginWeb(LoginFormWeb datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\TokenController.cs:línea 32
+ClientConnectionId:1b2b99d3-d40e-4b72-9f4b-b86a2b4caad9
+Error Number:18456,State:1,Class:14
+2020-09-05 19:45:07,269 [10] INFO DymaDieckAPI.Controllers.TokenController - <<<<<<<<<< Login Web

@@ -1,0 +1,51 @@
+2020-09-23 21:40:15,255 [38] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 69
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:adbb3652-727f-4e6e-90ad-3e1f0c5d9479
+Error Number:515,State:2,Class:16
+2020-09-23 21:48:20,504 [9] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 69
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:38e9f72e-9130-4587-ad0e-be40e44b1db8
+Error Number:515,State:2,Class:16
+2020-09-23 21:53:59,402 [16] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 69
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:57e7e264-1b2a-4439-90e1-e3b447dbe713
+Error Number:515,State:2,Class:16
+2020-09-23 23:00:25,966 [9] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'NombreEmpresa', table 'DIECKCRM.dbo.Empresa'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 69
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:19641009-58d5-4746-8ee6-47ad7955eec2
+Error Number:515,State:2,Class:16
+2020-09-23 23:05:40,161 [17] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-09-23 23:05:42,518 [12] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-09-23 23:05:45,949 [14] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-09-23 23:20:31,040 [16] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-09-23 23:20:32,556 [12] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150

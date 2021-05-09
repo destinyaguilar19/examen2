@@ -1,0 +1,23 @@
+2021-03-06 08:31:53,008 [8] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+ClientConnectionId:b6d1b5d6-c99b-4f5e-8388-be315dd8b5db
+Error Number:515,State:2,Class:16
+2021-03-06 08:31:59,769 [19] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+2021-03-06 08:34:27,850 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TipoEmpleado', table 'DIECKCRM.dbo.Empleado'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 295
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 95
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 242
+ClientConnectionId:b6d1b5d6-c99b-4f5e-8388-be315dd8b5db
+Error Number:515,State:2,Class:16

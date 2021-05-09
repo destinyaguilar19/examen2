@@ -1,0 +1,201 @@
+2020-10-03 14:05:04,192 [17] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:05:04,754 [21] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:05:07,468 [17] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:05:08,873 [17] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:05:10,310 [23] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:05:10,620 [17] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:05:10,862 [21] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:06:23,664 [17] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:06:24,626 [25] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 14:06:25,600 [17] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:236f5e9c-b8d8-4267-8c8c-6f4f05dfc290
+Error Number:547,State:0,Class:16
+2020-10-03 15:45:20,628 [6] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:196fbc4a-876e-44ab-a5f7-a31908035ba1
+Error Number:547,State:0,Class:16
+2020-10-03 15:46:50,216 [7] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:196fbc4a-876e-44ab-a5f7-a31908035ba1
+Error Number:547,State:0,Class:16
+2020-10-03 15:48:17,619 [13] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:196fbc4a-876e-44ab-a5f7-a31908035ba1
+Error Number:547,State:0,Class:16
+2020-10-03 15:53:40,186 [6] ERROR DymaDieckAPI.Controllers.CatalogController - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Empleado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 241
+   en DymaDieckBackend.Actions.Task.GuardarEmpleadoActivo(Int64 NPK_Empleado, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 78
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateEmpleado(Int64 NPK_Empleado, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 188
+ClientConnectionId:b7625277-30c4-46b1-97e7-19ed599474c7
+Error Number:547,State:0,Class:16
+2020-10-03 16:01:38,523 [11] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:04:45,961 [17] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:04:49,481 [13] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:05:37,522 [17] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:09:12,299 [18] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:10:02,617 [18] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:10:21,429 [18] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:15:39,182 [20] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 150
+2020-10-03 16:26:21,308 [35] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:26:29,904 [35] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:27:57,519 [35] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:55:38,386 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:55:38,513 [36] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:55:39,605 [43] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:55:39,605 [41] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:55:39,947 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 16:55:40,446 [49] ERROR DymaDieckAPI.Controllers.CatalogController - Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: Desbordamiento de SqlDateTime. Debe estar entre 1/1/1753 12:00:00 AM y 12/31/9999 11:59:59 PM.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 210
+   en DymaDieckBackend.Actions.Task.GuardarEmpleado(EmpleadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 73
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpleado(EmpleadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 165
+2020-10-03 17:19:55,430 [15] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236
+2020-10-03 17:31:18,070 [61] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarInstalador(InstaladorForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 236

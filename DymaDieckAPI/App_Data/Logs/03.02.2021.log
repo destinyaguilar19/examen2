@@ -1,0 +1,60 @@
+2021-02-03 15:31:56,219 [6] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 97
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:80c017f7-273d-4d79-baff-3b6dbdea64c4
+Error Number:8152,State:2,Class:16
+2021-02-03 15:32:09,163 [6] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 97
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:80c017f7-273d-4d79-baff-3b6dbdea64c4
+Error Number:8152,State:2,Class:16
+2021-02-03 15:32:11,793 [11] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 97
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:80c017f7-273d-4d79-baff-3b6dbdea64c4
+Error Number:8152,State:2,Class:16
+2021-02-03 15:34:55,032 [6] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 97
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:80c017f7-273d-4d79-baff-3b6dbdea64c4
+Error Number:8152,State:2,Class:16
+2021-02-03 15:35:02,166 [85] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 97
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:80c017f7-273d-4d79-baff-3b6dbdea64c4
+Error Number:8152,State:2,Class:16
+2021-02-03 15:37:45,973 [86] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 97
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:80c017f7-273d-4d79-baff-3b6dbdea64c4
+Error Number:8152,State:2,Class:16
+2021-02-03 17:06:38,799 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 321
+2021-02-03 17:09:55,400 [33] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 321

@@ -1,0 +1,126 @@
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.csprojAssemblyReference.cache
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.csproj.CoreCompileInputs.cache
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\DymaDieckAPI.dll.config
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\DymaDieckAPI.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\DymaDieckAPI.pdb
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\csc.exe
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\csc.exe.config
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\csc.rsp
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\csi.exe
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\csi.exe.config
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\csi.rsp
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.AppContext.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Console.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.Compression.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Claims.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.ValueTuple.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\vbc.exe
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\vbc.exe.config
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\vbc.rsp
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\VBCSCompiler.exe
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\DymaDieckBackEnd.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\Newtonsoft.Json.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\System.Web.Http.WebHost.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\DymaDieckBackEnd.pdb
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\System.Net.Http.Formatting.xml
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\Newtonsoft.Json.xml
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\System.Web.Http.WebHost.xml
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.csproj.CopyComplete
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.dll
+C:\Miguel\Dieck 2020\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.pdb
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\DymaDieckAPI.dll.config
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\DymaDieckAPI.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\DymaDieckAPI.pdb
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\csc.exe
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\csc.exe.config
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\csc.rsp
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\csi.exe
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\csi.exe.config
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\csi.rsp
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.AppContext.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Console.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.Compression.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Claims.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.ValueTuple.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\vbc.exe
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\vbc.exe.config
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\vbc.rsp
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\VBCSCompiler.exe
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\DymaDieckBackEnd.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\Newtonsoft.Json.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\System.Web.Http.WebHost.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\DymaDieckBackEnd.pdb
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\System.Net.Http.Formatting.xml
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\Newtonsoft.Json.xml
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\System.Web.Http.WebHost.xml
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.csprojAssemblyReference.cache
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.csproj.CoreCompileInputs.cache
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.csproj.CopyComplete
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.dll
+C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\obj\Debug\DymaDieckAPI.pdb

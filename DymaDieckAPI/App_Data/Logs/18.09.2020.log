@@ -1,0 +1,13 @@
+2020-09-18 22:53:33,378 [13] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.BaseController.GetNpkUser() en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\BaseController.cs:línea 39
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+2020-09-18 23:00:22,403 [7] ERROR DymaDieckAPI.Controllers.CatalogController - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 69
+   en DymaDieckBackend.Actions.Task.GuardarEmpresa(EmpresaCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 51
+   en DymaDieckAPI.Controllers.CatalogController.GuardarEmpresa(EmpresaForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 79
+ClientConnectionId:5cce85a9-2d28-4eda-bc88-f1be366abeeb
+Error Number:8152,State:2,Class:16

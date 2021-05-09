@@ -1,0 +1,36 @@
+2020-06-14 20:07:38,262 [140] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:09:40,176 [134] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:38:55,537 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:39:46,336 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:40:27,097 [27] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:42:24,718 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:44:21,850 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:44:39,064 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769
+2020-06-14 20:45:14,927 [24] ERROR YfosCipherBondAPI.Controllers.CatalogController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at YfosCipherBondAPI.Controllers.CatalogController.ConvertObjectToXML[T](T value, String rootName) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1746
+   at YfosCipherBondAPI.Controllers.CatalogController.SaveSale(SaleForm datos) in C:\Yfos\Proyectos\CipherBond\CipherBond api\YfosCipherBondAPI\Controllers\CatalogController.cs:line 1769

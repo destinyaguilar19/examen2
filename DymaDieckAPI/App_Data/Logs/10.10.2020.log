@@ -1,0 +1,17 @@
+2020-10-10 12:22:06,925 [49] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckAPI.Controllers.CatalogController.GuardarRegistroIMSS(RegistroIMSSForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 321
+2020-10-10 12:50:36,913 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'NPK_RegistroIMSS'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NPK_RegistroIMSS'.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 467
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 122
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateRegistroIMSS(Int64 NPK_RegistroIMSS, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 357
+ClientConnectionId:39a5a4f2-5cef-45cf-9959-26cc97206b68
+Error Number:207,State:1,Class:16
+2020-10-10 12:50:38,585 [38] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'NPK_RegistroIMSS'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NPK_RegistroIMSS'.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 467
+   en DymaDieckBackend.Actions.Task.GuardarRegistroIMSSActivo(Int64 NPK_RegistroIMSS, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 122
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateRegistroIMSS(Int64 NPK_RegistroIMSS, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 357
+ClientConnectionId:39a5a4f2-5cef-45cf-9959-26cc97206b68
+Error Number:207,State:1,Class:16

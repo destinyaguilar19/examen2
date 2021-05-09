@@ -1,0 +1,91 @@
+2020-11-10 00:09:54,179 [5] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:e4d799fa-6a1d-4d7e-902c-48d004bfad53
+Error Number:208,State:1,Class:16
+2020-11-10 00:11:52,289 [6] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:d349a43e-c55a-4742-81e8-0e0eb8adb357
+Error Number:208,State:1,Class:16
+2020-11-10 00:29:42,470 [11] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:857a6710-6af8-4e60-a5c0-1f60cb38212d
+Error Number:208,State:1,Class:16
+2020-11-10 00:29:48,468 [25] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:857a6710-6af8-4e60-a5c0-1f60cb38212d
+Error Number:208,State:1,Class:16
+2020-11-10 00:30:13,636 [23] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwHerramienta'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwHerramienta'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerHerramientas(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1396
+   en DymaDieckBackend.Actions.Task.TraerHerramientas(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 311
+   en DymaDieckAPI.Controllers.CatalogController.TraerHerramientas(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1042
+ClientConnectionId:87225035-e352-4e39-82a3-8ad86084be21
+Error Number:208,State:1,Class:16
+2020-11-10 21:39:31,849 [18] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:5ae392f0-dd36-4aaf-8aa6-563a64fca81a
+Error Number:208,State:1,Class:16
+2020-11-10 21:39:45,074 [21] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid object name 'vwSubcategorias'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'vwSubcategorias'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerSubcategoriass(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2526
+   en DymaDieckBackend.Actions.Task.TraerSubCategoriass(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 530
+   en DymaDieckAPI.Controllers.CatalogController.TraerSubCategoriass(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1855
+ClientConnectionId:60b41477-7aca-44b3-9bab-b6cb6ee0af9c
+Error Number:208,State:1,Class:16
+2020-11-10 21:54:27,374 [13] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Proveedor'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Proveedor'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProveedors(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2300
+   en DymaDieckBackend.Actions.Task.TraerProveedors(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 488
+   en DymaDieckAPI.Controllers.CatalogController.TraerProveedors(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1692
+ClientConnectionId:59a5b359-e860-4d6f-a515-b15d6f0145da
+Error Number:207,State:1,Class:16
+2020-11-10 22:22:48,901 [8] ERROR DymaDieckAPI.Controllers.CatalogController - Invalid column name 'Proveedor'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Proveedor'.
+   en DymaDieckBackend.Repositories.CatalogRepository.TraerProveedors(Nullable`1 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2300
+   en DymaDieckBackend.Actions.Task.TraerProveedors(Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 488
+   en DymaDieckAPI.Controllers.CatalogController.TraerProveedors(Int32 activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1692
+ClientConnectionId:8a8562a9-086e-42ee-8ae9-f4495d547136
+Error Number:207,State:1,Class:16
+2020-11-10 22:52:03,699 [40] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1599
+   en DymaDieckBackend.Actions.Task.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 346
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateIva(Int64 NPK_Iva, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1177
+2020-11-10 22:52:05,274 [25] ERROR DymaDieckAPI.Controllers.CatalogController - Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 1599
+   en DymaDieckBackend.Actions.Task.GuardarIvaActivo(Int64 NPK_Iva, Int32 Activo, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 346
+   en DymaDieckAPI.Controllers.CatalogController.UpdateActivateIva(Int64 NPK_Iva, Int32 Activo) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1177
+2020-11-10 23:17:39,366 [15] ERROR DymaDieckAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TipoAcabado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TipoAcabado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarTipoAcabado(TipoAcabadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2670
+   en DymaDieckBackend.Actions.Task.GuardarTipoAcabado(TipoAcabadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 562
+   en DymaDieckAPI.Controllers.CatalogController.GuardarTipoAcabado(TipoAcabadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1968
+ClientConnectionId:49bc95ad-905a-476d-b2d0-50902117fb54
+Error Number:547,State:0,Class:16
+2020-11-10 23:18:24,826 [10] ERROR DymaDieckAPI.Controllers.CatalogController - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TipoAcabado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TipoAcabado_Empresa". The conflict occurred in database "DIECKCRM", table "dbo.Empresa", column 'NPK_Empresa'.
+The statement has been terminated.
+   en DymaDieckBackend.Repositories.CatalogRepository.GuardarTipoAcabado(TipoAcabadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Repositories\CatalogRepository.cs:línea 2670
+   en DymaDieckBackend.Actions.Task.GuardarTipoAcabado(TipoAcabadoCatalogo datos, Int32 NFK_User) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckBackEnd\Actions\Task.cs:línea 562
+   en DymaDieckAPI.Controllers.CatalogController.GuardarTipoAcabado(TipoAcabadoForm datos) en C:\Yareli\PROYECTOSDYMA\MARMOLET\dieckapi\DymaDieckAPI\Controllers\CatalogController.cs:línea 1968
+ClientConnectionId:49bc95ad-905a-476d-b2d0-50902117fb54
+Error Number:547,State:0,Class:16
